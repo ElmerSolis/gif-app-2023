@@ -13,7 +13,7 @@ export const GifExpertApp = () => {
 
   return (
     <>
-      <h1>GifExpertApp</h1>
+      <h1>GifExpertoApp</h1>
       <AddCategory newCategory={onAddCategory} />
       {categoria.map((cat) => {
         return <GifGrid key={cat} category={cat} />;
